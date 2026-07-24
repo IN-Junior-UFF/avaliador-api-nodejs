@@ -21,10 +21,6 @@ que a correção automática usa como referência.
 5. Rode sua aplicação com `npm start`. Ela deve subir escutando na porta `3000` (ou na
    `PORT` definida no `.env`) e responder `GET /health` com `200` assim que estiver pronta.
 
-Fora o uso obrigatório do Prisma, não há estrutura de pastas ou framework impostos.
-Organize o projeto como preferir, seguindo as boas práticas descritas no enunciado
-(camadas, tratamento de erros, etc.).
-
 ## Como funciona a correção
 
 Quando quiser ser avaliado, vá na aba **Actions** deste repositório, escolha o workflow
