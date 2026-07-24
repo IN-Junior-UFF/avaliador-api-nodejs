@@ -48,9 +48,9 @@ quanto sua `npm install` + `prisma migrate deploy` + boot da API demoram no runn
 Para o disparo funcionar, faça duas coisas neste repositório assim que criá-lo a partir
 do template:
 
-1. **Adicione `SUA-ORG-bot` (te passamos o usuário exato no convite) como colaborador**
-   deste repositório, com permissão de escrita. É assim que a correção consegue publicar
-   o status e o comentário de volta no seu commit. *Settings → Collaborators → Add people.*
+1. **Adicione `INJunior` como colaborador** deste repositório, com permissão de escrita.
+   É assim que a correção consegue publicar o status e o comentário de volta no seu
+   commit. *Settings → Collaborators → Add people.*
 2. **Cadastre o secret `AVALIADOR_DISPATCH_TOKEN`** neste repositório, com o valor que te
    enviamos junto do convite (não é senha de nada, só autoriza avisar a correção, não dá
    acesso a mais nada). *Settings → Secrets and variables → Actions → New repository
