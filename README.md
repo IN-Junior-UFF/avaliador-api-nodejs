@@ -48,16 +48,22 @@ quanto sua `npm install` + `prisma migrate deploy` + boot da API demoram no runn
 Para o disparo funcionar, faça duas coisas neste repositório assim que criá-lo a partir
 do template:
 
-1. **Adicione `INJunior` como colaborador** deste repositório, com permissão de escrita.
-   É assim que a correção consegue publicar o status e o comentário de volta no seu
-   commit. *Settings → Collaborators → Add people.*
-2. **Cadastre o secret `AVALIADOR_DISPATCH_TOKEN`** neste repositório, com o valor que te
-   enviamos junto do convite (não é senha de nada, só autoriza avisar a correção, não dá
-   acesso a mais nada). *Settings → Secrets and variables → Actions → New repository
-   secret.*
+1. **Adicione `INJunior` como colaborador**, com permissão de escrita:
+   - Vá em **Settings → Collaborators → Add people**.
+   - Digite `INJunior` e confirme o convite.
+   - Isso vai ficar marcado como "Invitation pending" na lista de colaboradores, e é
+     assim mesmo, ninguém precisa aceitar manualmente do outro lado. O convite é aceito
+     automaticamente na primeira vez que você disparar uma avaliação. É assim que a
+     correção consegue publicar o status e o comentário de volta no seu commit.
+2. **Cadastre o secret `AVALIADOR_DISPATCH_TOKEN`**:
+   - Vá em **Settings → Secrets and variables → Actions → New repository secret**.
+   - Em **Name**, coloque exatamente `AVALIADOR_DISPATCH_TOKEN`.
+   - Em **Secret**, cole o valor que te enviamos junto do convite (não é senha de nada,
+     só autoriza avisar a correção, não dá acesso a mais nada).
+   - **Add secret**.
 
 Sem isso, o disparo manual roda normalmente, mas o workflow `Notificar Avaliacao` não vai
-conseguir avisar a correção — ele avisa isso com um warning nos logs dele (aba
+conseguir avisar a correção. Ele avisa isso com um warning nos logs dele (aba
 **Actions**), sem quebrar nada no seu repositório.
 
 ## Dúvidas
