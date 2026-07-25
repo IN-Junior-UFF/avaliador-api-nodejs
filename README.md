@@ -1,7 +1,7 @@
 # Tarefa Node.js: API de Gerenciamento de Projetos
 
-Implemente, dentro deste repositório, a API descrita no enunciado da tarefa (PDF enviado
-junto com o convite): gerenciamento de projetos, tarefas e usuários, com autenticação
+Implemente, dentro deste repositório, a API descrita no enunciado da tarefa (PDF em anexo na plataforma): 
+gerenciamento de projetos, tarefas e usuários, com autenticação
 JWT e controle de acesso baseado em papéis (RBAC: `admin` e `user`). O contrato exato de
 rotas, payloads e códigos HTTP que sua API precisa seguir está em
 **[`docs/CONTRATO_API.pdf`](docs/CONTRATO_API.pdf)**. Leia esse arquivo com atenção, é ele
@@ -58,7 +58,7 @@ do template:
 2. **Cadastre o secret `AVALIADOR_DISPATCH_TOKEN`**:
    - Vá em **Settings → Secrets and variables → Actions → New repository secret**.
    - Em **Name**, coloque exatamente `AVALIADOR_DISPATCH_TOKEN`.
-   - Em **Secret**, cole o valor que te enviamos junto do convite (não é senha de nada,
+   - Em **Secret**, cole o valor presente no arquivo token.txt, onde esse arquivo é encontrado na plataforma do moodle (não é senha de nada,
      só autoriza avisar a correção, não dá acesso a mais nada).
    - **Add secret**.
 
