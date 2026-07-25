@@ -1,7 +1,7 @@
 # Tarefa Node.js: API de Gerenciamento de Projetos
 
-Implemente, dentro deste repositório, a API descrita no enunciado da tarefa (PDF enviado
-junto com o convite): gerenciamento de projetos, tarefas e usuários, com autenticação
+Implemente, dentro deste repositório, a API descrita no enunciado da tarefa (PDF em anexo na plataforma): 
+gerenciamento de projetos, tarefas e usuários, com autenticação
 JWT e controle de acesso baseado em papéis (RBAC: `admin` e `user`). O contrato exato de
 rotas, payloads e códigos HTTP que sua API precisa seguir está em
 **[`docs/CONTRATO_API.pdf`](docs/CONTRATO_API.pdf)**. Leia esse arquivo com atenção, é ele
@@ -35,12 +35,12 @@ A avaliação **não** roda sozinha a cada push, é por escolha sua, assim commi
 intermediários/WIP não geram comentário nenhum. Dispare quando achar que está pronto (ou
 quantas vezes quiser, para ver o que ainda falta).
 
-O código dos testes em si não fica neste repositório nem é divulgado — o que você recebe
+O código dos testes em si não fica neste repositório nem é divulgado, o que você recebe
 de volta é sempre o resultado (passou/falhou) e a descrição do requisito, nunca a
-implementação do teste. Isso é intencional: o objetivo é que você valide sua solução
+implementação do teste. Isso é intencional, o objetivo é que você valide sua solução
 contra o contrato documentado, não contra os detalhes internos da suíte.
 
-O resultado costuma aparecer no seu commit em poucos minutos — o tempo real depende de
+O resultado costuma aparecer no seu commit em poucos minutos, o tempo real depende de
 quanto sua `npm install` + `prisma migrate deploy` + boot da API demoram no runner.
 
 ### Setup necessário (uma vez só, antes do primeiro disparo)
@@ -58,7 +58,7 @@ do template:
 2. **Cadastre o secret `AVALIADOR_DISPATCH_TOKEN`**:
    - Vá em **Settings → Secrets and variables → Actions → New repository secret**.
    - Em **Name**, coloque exatamente `AVALIADOR_DISPATCH_TOKEN`.
-   - Em **Secret**, cole o valor que te enviamos junto do convite (não é senha de nada,
+   - Em **Secret**, cole o valor presente no arquivo token.txt, onde esse arquivo é encontrado na plataforma do moodle (não é senha de nada,
      só autoriza avisar a correção, não dá acesso a mais nada).
    - **Add secret**.
 
